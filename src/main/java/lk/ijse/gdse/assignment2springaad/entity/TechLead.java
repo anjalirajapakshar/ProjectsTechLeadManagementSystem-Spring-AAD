@@ -22,7 +22,7 @@ public class TechLead {
     private String techLeadName;
     private String techLeadEmail;
     private String techLeadAddress;
-    @OneToMany(mappedBy = "techLeadId" ,targetEntity = Projects.class,cascade = CascadeType.ALL)
-    private List<Projects>projectsList = new ArrayList<>();
+    @OneToMany(mappedBy = "techLeadId" ,targetEntity = Project.class,cascade = CascadeType.ALL)
+    private List<Project>projectsList = new ArrayList<>();
 
 }

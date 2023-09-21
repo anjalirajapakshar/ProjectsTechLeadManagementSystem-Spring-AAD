@@ -12,7 +12,7 @@ import javax.persistence.ManyToOne;
 @NoArgsConstructor
 @Data
 @Entity
-public class Projects {
+public class Project {
     @Id
     private String projectId;
     private String projectName;
